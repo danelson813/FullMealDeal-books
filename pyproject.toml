@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fullmealdeal-books"
+version = "0.1.0"
+description = "using books.toscrape to build a full app."
+authors = ["Dan Nelson <danelson@nwi.net>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "fullmealdeal_books"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+bs4 = "^0.0.1"
+pandas = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
